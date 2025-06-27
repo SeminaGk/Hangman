@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h3>Welcome to my hangman game</h3>
+   <p>You must find a random word, be careful not to be hanged</p>
+   <p>Each turn you must guess a letter</p>
+   <p id="playerParagraph">You must find the word : - - - - - - - -</p>
+   <input placeholder="write a letter here" id="userInput">
+   <button onclick="playerGuessing ()">Guess a letter</button>
+   <p id="messagingPar">You have 7 tries</p>
+   <img id="hangImage" height="100px" src="./images/step-0.png">
+   <button onclick="reset()">Reset game</button>
+   <script src="script.js"></script>
+</body>
+</html>
