@@ -1,4 +1,4 @@
-# Kremala
+# Hangman
 
 Hangman Game
 
@@ -33,3 +33,4 @@ Files:
 Play Online:
 
 You can play the game directly on GitHub Pages:
+https://seminagk.github.io/Hangman/ 
